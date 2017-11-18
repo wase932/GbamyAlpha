@@ -1,0 +1,11 @@
+
+.star {
+    margin: 1px;
+    padding: 5px;
+    
+}
+
+.noPadding {
+    margin: 0;
+    padding: 0;
+}

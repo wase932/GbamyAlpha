@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ProfileCardHeadComponent } from './profile-card-head/profile-card-head.component';
+import { RatingStarComponent } from './rating-star/rating-star.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileCardHeadComponent,
+    RatingStarComponent
   ],
   imports: [
     BrowserModule
